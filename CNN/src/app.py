@@ -1,4 +1,5 @@
 from flask import Flask, request
+from flask_cors import CORS
 from keras.models import load_model
 from cnn_model.custom_objects import layers
 from cnn_model.custom_objects import metrics
@@ -11,13 +12,18 @@ import tensorflow as tf
 from keras.preprocessing.image import ImageDataGenerator
 
 app = Flask(__name__)
+CORS(app)
 model = None
-# CORS(app)
+
 
 def load_cnn_model():
 	global model
 	model = load_model('./cnn_model/deepaesthetics_model.h5', \
-	    custom_objects={'LRN': layers.LRN, 'euclidean_distance_loss': metrics.euclidean_distance_loss, 'rmse': metrics.rmse})
+	    custom_objects = {
+			'LRN': layers.LRN,
+			'euclidean_distance_loss': metrics.euclidean_distance_loss,
+			'rmse': metrics.rmse
+		})
 	model.summary()
 	print('[*] Model loaded')
 	global graph
@@ -45,7 +51,7 @@ def postdata():
 
 		# score bound protection
 		score = np.minimum(score, 10.0)
-		score = np.maximum(score, 1.0) 
+		score = np.maximum(score, 1.0)
 
 		print('CNN score: ' + str(score), file=sys.stderr)
 
