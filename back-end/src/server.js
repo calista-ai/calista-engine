@@ -30,15 +30,14 @@ const config = {
       ]
   },
   viewport: {
-    width: 1366, //1366
-    height: 694 //694
+    width: 1366, 
+    height: 694
   }
 
 }
 
 app.use(cors())
 app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({ extended: false }))
 
 function processInputUrl(url) {
   url = url.trim()
