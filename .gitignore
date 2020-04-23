@@ -22,7 +22,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # temporary images
-image-tmp/*.png
+**/image-tmp/*.png
 
 *.pyc
 *.h5
