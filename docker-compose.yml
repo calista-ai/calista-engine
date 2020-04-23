@@ -1,0 +1,79 @@
+version: '3'
+
+services:
+  ##############################
+  ### SETUP SERVER CONTAINER ###
+  ##############################
+  server:
+    build:
+      context: ./back-end
+    container_name: server
+    expose:
+      - 4000
+    ports:
+      - 4000:4000
+    environment:
+      - PORT=4000
+    volumes:
+      - ./back-end/src:/app/server/src
+      - ./back-end/src/image-tmp:/app/server/image-tmp
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    links:
+      - cnn
+
+  ##############################
+  ### SETUP CLIENT CONTAINER ###
+  ##############################
+  client:
+    build:
+      context: ./front-end
+    container_name: client
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    environment:
+      - REACT_APP_PORT=3000
+      - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_BASEURL=${BASEURL}
+    volumes:
+      - ./front-end/src:/app/client/src
+      - ./front-end/public:/app/client/public
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    links:
+      - server
+
+  #############################
+  ###  SETUP CNN CONTAINER  ###
+  #############################
+  cnn:
+    build:
+      context: ./CNN
+    container_name: cnn
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+
+    volumes:
+      - ./CNN/src:/app/cnn/src
+      - ./back-end/src/image-tmp:/app/cnn/src/image-tmp
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+
+  #############################
+  ### SETUP NGINX CONTAINER ###
+  #############################
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      -  /etc/localtime:/etc/localtime:ro
+    command: [nginx-debug, '-g', 'daemon off;']
+    ports:
+      - 80:80
+    links:
+      - client

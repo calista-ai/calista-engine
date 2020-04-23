@@ -1,0 +1,136 @@
+
+
+.wrapper {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); */
+  /* padding: 0 7px; */
+  width: 100%;
+  /* max-width: 1200px; */
+  /* margin: auto;
+  top: 39.3%;
+  z-index: 12; */
+  text-align: center;
+}
+
+.wrapper .logo {
+
+  margin: 0 auto;
+  padding-top: 20vh;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: block;
+
+}
+
+.wrapper .logo img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.wrapper .search {
+  display: block;
+  /* float: none; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+  /* width: 80%; */
+  max-width: 680px;
+  /* padding: 1.9em 0.8em 0; */
+  margin-top: 1em;
+}
+
+.wrapper .search form {
+  box-sizing: content-box;
+  background-color: #fff;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-right: 3em;
+  border-radius: 3px;
+  display: block;
+  position: relative;
+  /* height: 2.5em; */
+  /* margin-top: -1.4em; */
+  /* border: 0.5px solid #d9d9d9;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.06); */
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  /* border-bottom: 1px solid #00bbec; */
+
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper .search form {
+    font-size: 1em;
+  }
+}
+
+.wrapper .search form input {
+  font-size: 1em;
+  font-weight: 350;
+  color: #333;
+  display: block;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  border: 0;
+  padding: 0;
+  height: 2.5em;
+
+  /* top: -1px; */
+  /* outline: 0; */
+  color: #555;
+  font-family: 'Lato', sans-serif;
+}
+.wrapper .search form .btn {
+  box-sizing: content-box;
+  color: rgba(0,0,0,0.33);
+  border: none;
+  /* border: 3px solid mix(#6078EA, white, 35%); */
+  border-radius: 0 3px 3px 0;
+  min-width: 26px;
+  cursor: pointer;
+  font-size: 1.25em;
+  line-height: 1.5;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
+  background-size: 28px;
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 0 0.64em;
+  height: 44px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  outline: none;
+
+}
+
+.wrapper .search form .btn:hover {
+  /* background-color: #66ad57; */
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
+  background-size: 28px;
+}
+.wrapper .search form .btn:active {
+  background-color: #333;
+}
+
+.wrapper .message {
+  position: relative;
+  padding-top: 1em;
+  margin: 0 auto;
+  line-height: 1.4;
+  font-size: 1.2em;
+  /* font-weight: 300; */
+}
+.wrapper .message span {
+  color: #9a9a9a;
+}
