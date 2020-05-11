@@ -18,7 +18,7 @@ model = None
 
 def load_cnn_model():
 	global model
-	model = load_model('./cnn_model/deepaesthetics_model.h5', \
+	model = load_model('./cnn_model/calista_comparison_based.h5', \
 	    custom_objects = {
 			'LRN': layers.LRN,
 			'euclidean_distance_loss': metrics.euclidean_distance_loss,
