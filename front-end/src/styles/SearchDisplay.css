@@ -1,6 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css?family=Comfortaa'); */
 
+/* body {
+    background-color: #bbc9e4; */
+    /* background-color: #7f83db;
+} */
 
 .wrapper {
+  background-color: #7f83db;
   /* position: absolute; */
   /* top: 50%;
   left: 50%; */
@@ -9,28 +15,36 @@
   /* padding: 0 7px; */
   width: 100%;
   /* max-width: 1200px; */
-  /* margin: auto;
-  top: 39.3%;
-  z-index: 12; */
+  height: 100%;
   text-align: center;
+  
 }
 
 .wrapper .logo {
 
-  margin: 0 auto;
+  /* margin: 0 auto;
   padding-top: 20vh;
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
-  display: block;
-
+  display: block; */
+  color: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+  font-size: 5em;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .wrapper .logo img {
-  width: 100%;
+  /* width: 100%;
   height: auto;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 auto; */
+  width: 85px;
+  height: 85px;
+  position:absolute;
+  margin-top: 18px;
+  margin-left: -86px;
 }
 
 .wrapper .search {
@@ -125,12 +139,16 @@
 
 .wrapper .message {
   position: relative;
-  padding-top: 1em;
+  padding-top: 2em;
   margin: 0 auto;
   line-height: 1.4;
   font-size: 1.2em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* font-family: 'Source Code Pro', monospace;   */
   /* font-weight: 300; */
 }
+
 .wrapper .message span {
-  color: #9a9a9a;
+  color: rgba(255,255,255,.70);
 }
+
