@@ -1,21 +1,26 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
-html {
+/* html {
   min-height: 100%;
   overflow: hidden;
   overflow-y: auto;
 }
 
 body {
-  /* background-color: #d9eff5; */
   background-color: #fcf2f2;
   min-height: 100%;
   font-style: normal;
   font-weight: 300;
   overflow: hidden;
   overflow-y: auto;
-  /* background-size: cover;  */
   font-family: "proxima-nova", sans-serif;
+} */
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }

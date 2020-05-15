@@ -6,6 +6,8 @@ import './styles/App.css'
 import LoadingDisplay from './components/LoadingDisplay.js'
 import ResultDisplay from './components/ResultDisplay.js'
 
+import IntroPageDisplay from './components/IntroPageDisplay.js'
+
 
 
 class App extends Component {
@@ -17,7 +19,7 @@ class App extends Component {
       <Router>
         <div>
           <Switch>
-            <Route exact path="/" component={SearchDisplay} />
+            <Route exact path="/" component={IntroPageDisplay} />
             <Route path="/loading" component={LoadingDisplay} />
             <Route path="/result" component={ResultDisplay} />
             <Route component={NotFoundRedirect} />
