@@ -1,13 +1,10 @@
 
 .how-it-works-section {
     background-color: #e6e3ee;
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%; */
-    /* -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); */
-    /* padding: 0 7px; */
+
     width: 100%;
+    min-height: 100vh;
+    height: auto;
     /* max-width: 1200px; */
     /* height: 100%; */
     /* text-align: center; */
@@ -34,20 +31,22 @@
     /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     min-height: 340px;
-    /* margin: 40px auto 0; */
+    margin: 20px auto 0;
+    padding: 0 40px;
     /* max-width: 1140px; */
 }
 
 .how-it-works-section .content-item {
     box-sizing: border-box;
     width: 300px;
+    min-width: 280px;
     min-height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 17.5px;
+    margin: 20px 17.5px;
     margin-left: 17.5px;
     padding: 20px 25px;
     background-color: #fff;

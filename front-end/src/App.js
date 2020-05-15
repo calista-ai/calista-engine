@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom'
-import SearchDisplay from './components/SearchDisplay.js'
+// import SearchDisplay from './components/SearchDisplay.js'
 import './styles/App.css'
 
 import LoadingDisplay from './components/LoadingDisplay.js'

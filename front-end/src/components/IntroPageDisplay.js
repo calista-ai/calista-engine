@@ -23,18 +23,20 @@ class IntroPageDisplay extends Component {
         return (
             <div>
                 <div>
-                    <ReactPageScroller
+                    {/* <ReactPageScroller
                         pageOnChange={this.handlePageChange}
                         customPageNumber={this.state.currentPage}
-                    >
+                    > */}
                         <SearchDisplay />
+                        {/* <SearchDisplay /> */}
                         <HowItWorksDisplay />
                         {/* <SearchDisplay />
                         <SearchDisplay /> */}
                         {/* <FirstComponent />
                         <SearchDisplay /> */}
-                    </ReactPageScroller>
+                    {/* </ReactPageScroller> */}
                     {/* <HowItWorksDisplay /> */}
+     
                 </div>
                 <div>
                 </div>
