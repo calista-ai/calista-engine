@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 import API from '../api.js'
 // import LoadingDisplay from './LoadingDisplay.js'
 
-// import Logo from '../assets/logo_transparent.png'
+import Arrow from '../assets/arrow.svg'
 import '../styles/SearchDisplay.css'
 
 class SearchDisplay extends Component {
@@ -115,6 +115,11 @@ class SearchDisplay extends Component {
             <div className="description">
             <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
             </div>
+          </div>
+          <div>
+            <a className="arrow">
+              <img src={Arrow} loading="lazy" />
+            </a>
           </div>
         </div>
         

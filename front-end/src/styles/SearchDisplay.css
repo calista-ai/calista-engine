@@ -113,3 +113,44 @@
 .search-section .description span {
     color: rgba(255,255,255,.70);
 }
+
+.arrow {
+    /* display: none !important; */
+    height: 56px;
+    width: 56px;
+    bottom: -25px;
+    left: 50%;
+    margin: 0 0 50px -28px;
+    background: rgba(34,34,34,0.35);
+    background-size: auto;
+    visibility: visible;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 24px;
+    border-radius: 100%;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.arrow img {
+    height: 24px;
+    width: 24px;
+    top: 50%;
+    left: 50%;
+    margin: -12px;
+    position: absolute;
+}
+
+.arrow:hover {
+    height: 70px;
+    width: 70px;
+    margin: 0 0 38px -35px;
+    background: rgba(34,34,34,0.5);
+}
+
+.arrow:focus {
+    text-decoration: none;
+    outline: none;
+}
