@@ -3,12 +3,12 @@
     background-color: #e6e3ee;
 
     width: 100%;
-    min-height: 90vh;
+    min-height: 60vh;
     height: auto;
     /* max-width: 1200px; */
     /* height: 100%; */
     /* text-align: center; */
-
+    /* margin-bottom: 0; */
 }
 
 .how-it-works-section .content-title {
@@ -82,11 +82,14 @@
 }
 
 .background-curve {
-    bottom: -8px;
+    bottom: -10px;
+    /* top: 100px; */
+    /* height: 10vh; */
     position: relative;
     width: 100%;
     color: #E37151;
     z-index: 0;
+    /* margin-bottom: -40px; */
 } 
 
 

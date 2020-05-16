@@ -61,7 +61,7 @@ class HowItWorksDisplay extends Component {
                     
                 </div>
             </div>
-            <svg className="background-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1438 134">
+            <svg className="background-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1438 90">
                 <path 
                     fill-rule="evenodd" 
                     clip-rule="evenodd" 

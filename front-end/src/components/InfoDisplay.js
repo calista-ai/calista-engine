@@ -15,7 +15,11 @@ class InfoDisplay extends Component {
 
     return (
         <div className="info-section">
-            Test
+            <div className="info-title">
+                <p>
+                    Providing<br />Website Aesthetics As a Service.
+                </p>
+            </div>
         </div>
     )
     
