@@ -7,6 +7,8 @@ import SecondComponent from "./SecondComp";
 
 import HowItWorksDisplay from "./HowItWorksDisplay.js"
 
+import InfoDisplay from "./InfoDisplay.js"
+
 class IntroPageDisplay extends Component {
 
     constructor(props) {
@@ -23,19 +25,11 @@ class IntroPageDisplay extends Component {
         return (
             <div>
                 <div>
-                    {/* <ReactPageScroller
-                        pageOnChange={this.handlePageChange}
-                        customPageNumber={this.state.currentPage}
-                    > */}
-                        <SearchDisplay />
-                        {/* <SearchDisplay /> */}
-                        <HowItWorksDisplay />
-                        {/* <SearchDisplay />
-                        <SearchDisplay /> */}
-                        {/* <FirstComponent />
-                        <SearchDisplay /> */}
-                    {/* </ReactPageScroller> */}
-                    {/* <HowItWorksDisplay /> */}
+
+                    <SearchDisplay />
+                    <HowItWorksDisplay />
+                    <InfoDisplay />
+      
      
                 </div>
                 <div>

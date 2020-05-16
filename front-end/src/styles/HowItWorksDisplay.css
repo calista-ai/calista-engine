@@ -3,7 +3,7 @@
     background-color: #e6e3ee;
 
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     height: auto;
     /* max-width: 1200px; */
     /* height: 100%; */
@@ -52,6 +52,7 @@
     background-color: #fff;
     border-radius: 18px;
     box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .how-it-works-section .content-item-img {
@@ -80,3 +81,15 @@
     color: inherit;
 }
 
+.background-curve {
+    bottom: -8px;
+    position: relative;
+    width: 100%;
+    color: #E37151;
+    z-index: 0;
+} 
+
+
+.content-items .background-curve path {
+    color: #E37151;
+}

@@ -58,8 +58,18 @@ class HowItWorksDisplay extends Component {
                             The aesthetics score is ready!
                         </div>
                     </div>
+                    
                 </div>
             </div>
+            <svg className="background-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1438 134">
+                <path 
+                    fill-rule="evenodd" 
+                    clip-rule="evenodd" 
+                    d="M1438 -0.000237664C1201.17 21.2404 961.354 32.0903 719 32.0903C476.646 32.0903 236.826 21.2404 0 -0.000244141L0 133.001H1438V-0.000237664Z" 
+                    fill="currentColor"
+                >
+                </path>
+            </svg>
         </div>
     )
     
