@@ -76,7 +76,18 @@
 .footer-section .icons {
     display: flex;
     flex-direction: row;
+}
+
+.footer-section .icons a:focus {
+    outline: none;
+}
+
+.footer-section .contact .icons {
     margin-left: -10px;
+}
+
+.footer-section .useful-links .icons {
+    margin-left: -15px;
 }
 
 .footer-section .icons svg {
