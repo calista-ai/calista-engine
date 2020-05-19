@@ -33,7 +33,7 @@ class Footer extends Component {
             </div>
             
             <div className="useful-links">
-                <p>Find more</p>
+                <p>Follow Us</p>
                 <ul className="icons">
                     <li>
                         <a href="https://github.com/calista-ai">
