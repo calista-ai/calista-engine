@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import ReactPageScroller from "react-page-scroller";
 
 import SearchDisplay from "./SearchDisplay.js";
-import FirstComponent from "./FirstComp";
-import SecondComponent from "./SecondComp";
 
 import HowItWorksDisplay from "./HowItWorksDisplay.js"
 
 import InfoDisplay from "./InfoDisplay.js"
+
+import ContributionDisplay from "./ContributionDisplay.js"
+
+import Footer from "./Footer.js"
 
 class IntroPageDisplay extends Component {
 
@@ -30,7 +32,8 @@ class IntroPageDisplay extends Component {
                     <HowItWorksDisplay />
                     <InfoDisplay />
       
-     
+                    <ContributionDisplay /> 
+                    <Footer />
                 </div>
                 <div>
                 </div>
