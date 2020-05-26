@@ -21,7 +21,9 @@ class ContributionDisplay extends Component {
               <p>Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. </p>
             </div>
             <div className="contribution-container-button">
-              <button type="button"><span>Participate!</span></button>
+              <a href="https://data.calista.app" target="_blank" rel="noopener noreferrer">
+                <button type="button"><span>Participate!</span></button>
+              </a>
             </div>
           </div>
           
