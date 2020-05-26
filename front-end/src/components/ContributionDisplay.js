@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/ContributionDisplay.css'
 import Item4 from '../assets/item4.gif'
+import Rocket from '../assets/rocket.png'
 
 class ContributionDisplay extends Component {
 
@@ -15,7 +16,7 @@ class ContributionDisplay extends Component {
           </div>
           <div className="contribution-container-inner">
             <div className="contribution-container-title">
-              <p>Help us Improve! <img src="https://lh3.googleusercontent.com/proxy/_bxP8oZ_D3LjOtKdXR0bAYlwFkEe5m4jz6rL65n66awzetKZG5XFEqwVbu6G4-jd9A9n4JNCtOYYPBeVGvlL6HjZnb-HjmlWlyCaAfcy0Dlbm4PWZN0BResFZh4NhLJ3Yj3bElWoHgkZU7U2ECQYqVLwn1M" /></p>
+              <p>Help us Improve! <img src={Rocket} /></p>
             </div>
             <div className="contribution-container-text">
               <p>Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. </p>
