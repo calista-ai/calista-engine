@@ -95,26 +95,24 @@ class SearchDisplay extends Component {
         //     <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
         //   </div>
         // </div>
-        <div className="test">
-          <div className="search-section">
-            <div className="logo">
-              <span>Calista</span>
-            </div>
-            <div className="search">
-              <form onSubmit={this.handleSubmit}>
-                <input 
-                  type="text"
-                  value={this.state.userInput}
-                  onChange={this.handleChange}
-                  placeholder="Insert a url (eg. www.google.com)"
-                  autoComplete="off"
-                />
-                <button className="btn" type="submit"></button>
-              </form>
-            </div>
-            <div className="description">
-            <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
-            </div>
+        <div className="search-section">
+          <div className="logo">
+            <span>Calista</span>
+          </div>
+          <div className="search">
+            <form onSubmit={this.handleSubmit}>
+              <input 
+                type="text"
+                value={this.state.userInput}
+                onChange={this.handleChange}
+                placeholder="Insert a url (eg. www.google.com)"
+                autoComplete="off"
+              />
+              <button className="btn" type="submit"></button>
+            </form>
+          </div>
+          <div className="description">
+          <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
           </div>
           <div>
             <a className="arrow">
@@ -122,6 +120,7 @@ class SearchDisplay extends Component {
             </a>
           </div>
         </div>
+        
         
       )
     }
