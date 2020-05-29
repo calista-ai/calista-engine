@@ -1,39 +1,28 @@
+.loading-section {
+  background-color: #7f83db;
 
-
-.wrapper {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); */
-  /* padding: 0 7px; */
+  height: 100vh;
   width: 100%;
-  /* max-width: 1200px; */
-  /* margin: auto;
-  top: 39.3%;
-  z-index: 12; */
+
+  display: flex;
+  flex-direction: column;
+
   text-align: center;
 }
 
-.wrapper .logo {
+.loading-section .logo {
 
-  margin: 0 auto;
-  padding-top: 20vh;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  display: block;
+  color: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+  font-size: 5em;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-top: 2em;
+  /* padding-top: 10%; */
 
 }
 
-.wrapper .logo img {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.wrapper .spinner {
+.loading-section .spinner {
   display: block;
   /* float: none; */
   margin-left: auto;
@@ -43,24 +32,23 @@
   /* width: 80%; */
   max-width: 680px;
   /* padding: 1.9em 0.8em 0; */
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
-.wrapper .loading-message {
-  padding-top: 20px;
-  position: relative;
-  padding-top: 1em;
-  margin: 0 auto;
+.loading-section .loading-message {
+  padding-top: 2em;
   line-height: 1.4;
   font-size: 1.2em;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
 }
 
-.wrapper .loading-message span {
-  color: #9a9a9a;
+.loading-section .loading-message span {
+  color: rgba(255,255,255,.70);
 }
 
-.wrapper .loading-message .webpage {
-  color: #000000;
+.loading-section .loading-message .webpage {
+  color: rgba(255,255,255,.70);
   font-size: .9em;
   font-weight: 400;
   font-style: italic;
