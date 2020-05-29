@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import '../styles/HowItWorksDisplay.css'
+import Step1 from '../assets/img/step1.svg'
+import Step2 from '../assets/img/step2.svg'
+import Step3 from '../assets/img/step3.svg'
 
 class HowItWorksDisplay extends Component {
 
@@ -27,7 +30,7 @@ class HowItWorksDisplay extends Component {
                 <div className="content-items">
                     <div className="content-item">
                         <div className="content-item-img">
-                            <img src="https://image.flaticon.com/icons/svg/1055/1055645.svg" />
+                            <img src={Step1} alt="" />
                         </div>
                         <div className="content-item-title">
                             Step 1
@@ -38,7 +41,7 @@ class HowItWorksDisplay extends Component {
                     </div>
                     <div className="content-item">
                         <div className="content-item-img">
-                            <img src="https://image.flaticon.com/icons/svg/2103/2103832.svg" />
+                            <img src={Step2} alt="" />
                         </div>
                         <div className="content-item-title">
                             Step 2
@@ -49,7 +52,7 @@ class HowItWorksDisplay extends Component {
                     </div>
                     <div className="content-item">
                         <div className="content-item-img">
-                            <img src="https://image.flaticon.com/icons/svg/1455/1455324.svg" />
+                            <img src={Step3} alt="" />
                         </div>
                         <div className="content-item-title">
                             Step 3

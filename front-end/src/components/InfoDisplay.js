@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import '../styles/InfoDisplay.css'
-import Item1 from '../assets/item1.png'
-import Item2 from '../assets/item2.png'
-import Item3 from '../assets/item3.png'
+import Item1 from '../assets/img/item1.png'
+import Item2 from '../assets/img/item2.png'
+import Item3 from '../assets/img/item3.png'
 
 class InfoDisplay extends Component {
 

@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 import API from '../api.js'
 // import LoadingDisplay from './LoadingDisplay.js'
 
-import Arrow from '../assets/arrow.svg'
+import Arrow from '../assets/img/arrow.svg'
 import '../styles/SearchDisplay.css'
 
 class SearchDisplay extends Component {

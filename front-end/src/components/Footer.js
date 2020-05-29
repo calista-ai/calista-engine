@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/Footer.css'
 
-import Logo from '../assets/calista-logo.png'
+import Logo from '../assets/img/calista-logo.png'
 
 class Footer extends Component {
 

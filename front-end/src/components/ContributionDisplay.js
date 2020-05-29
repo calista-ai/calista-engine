@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/ContributionDisplay.css'
-import Item4 from '../assets/item4.gif'
-import Rocket from '../assets/rocket.png'
+import Item4 from '../assets/img/item4.gif'
+import Rocket from '../assets/img/rocket.png'
 
 class ContributionDisplay extends Component {
 
