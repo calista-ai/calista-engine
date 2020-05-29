@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import API from '../api.js'
-// import LoadingDisplay from './LoadingDisplay.js'
+import LoadingDisplay from './LoadingDisplay.js'
 
 import Arrow from '../assets/img/arrow.svg'
 import '../styles/SearchDisplay.css'
@@ -69,8 +69,7 @@ class SearchDisplay extends Component {
     if (this.state.statusCode === 2)
     {
       return (
-        // <LoadingDisplay webpage={this.state.userInput} />
-        <div>test</div>
+        <LoadingDisplay webpage={this.state.userInput} />
       )
     }
     else if (this.state.statusCode === 1) {
@@ -120,7 +119,6 @@ class SearchDisplay extends Component {
             </a>
           </div>
         </div>
-        
         
       )
     }
