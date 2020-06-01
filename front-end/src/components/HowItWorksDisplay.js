@@ -22,7 +22,7 @@ class HowItWorksDisplay extends Component {
   render() {
 
     return (
-        <div className="how-it-works-section">
+        <div className="how-it-works-section" id="how-it-works-section">
             <div className="content-title">
                 <div>
                     <p>How it Works</p>

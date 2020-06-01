@@ -94,7 +94,7 @@ class SearchDisplay extends Component {
         //     <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
         //   </div>
         // </div>
-        <div className="search-section">
+        <div className="search-section" id="search-section">
           <div className="logo">
             <span>Calista</span>
           </div>
@@ -114,12 +114,11 @@ class SearchDisplay extends Component {
           <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
           </div>
           <div>
-            <a className="arrow">
+            <a className="arrow" href="#how-it-works-section">
               <img src={Arrow} loading="lazy" />
             </a>
           </div>
         </div>
-        
       )
     }
     else {
