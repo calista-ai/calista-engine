@@ -11,11 +11,12 @@ class Footer extends Component {
       <div className="footer-section">
           <div className="inner">
 
-            <div className="logo">
-                <img src={Logo} alt="" />
-                <p>alista</p>
-            </div>
-
+            <a href="#search-section">
+                <div className="logo">   
+                    <img src={Logo} alt="" />
+                    <p>alista</p>
+                </div>
+            </a>
             <div className="contact">
                 <p>Contact Us</p>
                 <ul className="icons">

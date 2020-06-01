@@ -41,6 +41,12 @@
     margin: 0;
 }
 
+.footer-section .inner a {
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
 .footer-section .contact {
     box-sizing: border-box;
 }
@@ -101,5 +107,18 @@
     height: 20px;
 
     padding: 0 2px;
+
+}
+
+@media screen and (max-width: 550px) { 
+
+    .footer-section .inner {
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .footer-section .logo {
+        padding-bottom: 30px;
+    }
 
 }
