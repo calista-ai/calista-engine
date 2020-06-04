@@ -19,6 +19,7 @@
     font-weight: 700;
     padding-top: 2em;
     /* padding-top: 10%; */
+    box-sizing: border-box;
 }
 
 .search-section .search {
