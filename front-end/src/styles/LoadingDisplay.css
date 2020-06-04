@@ -57,3 +57,15 @@
   font-weight: 400;
   font-style: italic;
 }
+
+@media screen and (max-height: 570px) {
+  .loading-section .logo {
+      padding-top: 1em;
+  }
+} 
+
+@media screen and (max-height: 480px) {
+  .loading-section .logo {
+      padding-top: .2em;
+  }
+} 
