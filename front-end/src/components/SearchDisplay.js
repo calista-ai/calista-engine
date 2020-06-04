@@ -74,26 +74,6 @@ class SearchDisplay extends Component {
     }
     else if (this.state.statusCode === 1) {
       return (
-        // <div className="wrapper">
-
-        //   <div className="logo">
-        //     <span>Calista</span>
-        //   </div>
-        //   <div className="search">
-        //     <form onSubmit={this.handleSubmit}>
-        //       <input type="text"
-        //         value={this.state.userInput}
-        //         onChange={this.handleChange}
-        //         placeholder="Insert a url (eg. www.google.com)"
-        //         autoComplete="off"
-        //       />
-        //       <button className="btn" type="submit"></button>
-        //     </form>
-        //   </div>
-        //   <div className="message">
-        //     <span>A deep learning powered engine to measure your website{"'"}s aesthetics</span>
-        //   </div>
-        // </div>
         <div className="search-section" id="search-section">
           <div className="logo">
             <span>Calista</span>
