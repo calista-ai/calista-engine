@@ -1,0 +1,116 @@
+.result-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e6e3ee;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-section .score-section {
+    /* box-sizing: border-box; */
+    padding: 2%;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 15px;
+    max-width: 1600px;
+}
+
+.score-section .title {
+    padding: 1rem;
+}
+
+.score-section .title p {
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    /* margin: 0; */
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #9997a2;
+    /* text-shadow: 0 1px 4px rgba(0,0,0,0.25); */
+}
+
+.score-section .score-indicator {
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.score-section .webpage {
+    color: #3876ac;
+    word-wrap: break-word;
+    white-space: initial;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.score-section .webpage a {
+    color: #3876ac;
+    text-decoration: none;
+    font-family: 'Comfortaa',sans-serif;
+    /* margin: 0; */
+    font-size: 1.3em;
+    line-height: 1;
+    font-weight: 600;
+    outline: none;
+}
+
+.score-section .webpage a:hover {
+    text-decoration: none;
+    outline: none;
+
+    opacity: .7;
+}
+
+.score-section .webpage a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.score-section .webpage a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+
+.result-section .screenshot-section {
+    padding: 2%;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 15px;
+    max-width: 1600px;
+}
+
+.screenshot-section .title {
+    padding: 1rem;
+}
+
+.screenshot-section .title p {
+    margin: 0;
+    font-family: 'Comfortaa',sans-serif;
+    /* margin: 0; */
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #9997a2;
+}
+
+.screenshot-section .screenshot {
+    /* width: 100%; */
+    margin: 1rem 1rem;
+}
+
+.screenshot-section .screenshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
