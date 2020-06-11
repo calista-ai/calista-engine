@@ -61,29 +61,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 400px) {
-    .search-section .search form {
-        font-size: 1.1em;
-    }
-}
 
-@media screen and (max-height: 570px) {
-    .search-section .logo {
-        padding-top: 1em;
-    }
-} 
-
-@media screen and (max-height: 480px) {
-    .search-section .logo {
-        padding-top: .2em;
-    }
-} 
-
-@media screen and (max-height: 400px) {
-    .arrow {
-        display: none !important;
-    }
-} 
 
 .search-section .search form .btn {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
@@ -122,10 +100,10 @@
     padding-top: 2em;
     line-height: 1.4;
     font-size: 1.2em;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Dejavu Sans', sans-serif;
 
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .search-section .description span {
@@ -172,3 +150,31 @@
     text-decoration: none;
     outline: none;
 }
+
+@media screen and (max-width: 400px) {
+    .search-section .search form {
+        font-size: 1.1em;
+    }
+
+    .search-section .description {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .search-section .logo {
+        padding-top: 1em;
+    }
+} 
+
+@media screen and (max-height: 480px) {
+    .search-section .logo {
+        padding-top: .2em;
+    }
+} 
+
+@media screen and (max-height: 400px) {
+    .arrow {
+        display: none !important;
+    }
+} 
