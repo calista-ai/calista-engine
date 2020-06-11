@@ -45,6 +45,9 @@
   font-weight: 700;
 
   box-sizing: border-box;
+
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .loading-section .loading-message span {
@@ -56,6 +59,8 @@
   font-size: .9em;
   font-weight: 400;
   font-style: italic;
+  word-wrap: break-word;
+  white-space: initial;
 }
 
 @media screen and (max-height: 570px) {
