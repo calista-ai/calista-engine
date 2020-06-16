@@ -1,17 +1,13 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import ReactStoreIndicator from 'react-score-indicator'
-
-import LoadingDisplay from './LoadingDisplay.js'
-import API from '../api.js'
-
-import 'react-tabs/style/react-tabs.css'
-import '../styles/ResultPageDisplay.css'
 
 import ResultSection from './ResultSection.js'
 import ContributionDisplay from "./ContributionDisplay.js"
 import Footer from "./Footer.js"
+import LoadingDisplay from './LoadingDisplay.js'
+import API from '../api.js'
+
+import '../styles/ResultPageDisplay.css'
 
 class ResultPageDisplay extends Component {
 
@@ -47,7 +43,6 @@ class ResultPageDisplay extends Component {
   }
 
   handleSubmit(event) {
-    // alert('A name was submitted: ' + this.state.website)
     event.preventDefault()
 
     this.setState({statusCode: 2})
