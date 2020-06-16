@@ -7,7 +7,7 @@ class LoadingDisplay extends Component {
 
   render() {
 
-    const webpageName = this.props.webpage || 'https://www.example.com' // ToDO: remove
+    const webpageName = this.props.webpage
 
     return (
       <div className="loading-section">

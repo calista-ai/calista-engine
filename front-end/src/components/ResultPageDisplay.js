@@ -94,7 +94,6 @@ class ResultPageDisplay extends Component {
         <Redirect to='/' />
       )
     }
-
     else if (this.state.statusCode === 2)
     {
       return (

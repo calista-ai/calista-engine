@@ -27,12 +27,7 @@ class ContributionDisplay extends Component {
               </a>
             </div>
           </div>
-          
         </div>
-        
-        {/* <div className="title">
-          <p>Help us Improve!</p>
-        </div> */}
       </div>
     )
     

@@ -18,7 +18,6 @@
     line-height: 1.5;
     font-weight: 700;
     padding-top: 2em;
-    /* padding-top: 10%; */
     box-sizing: border-box;
 }
 
@@ -85,7 +84,6 @@
 } 
 
 .search-section .search form .btn:hover {
-    /* background-color: #66ad57; */
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
     background-size: 28px;
     outline: none;
@@ -111,7 +109,6 @@
 }
 
 .arrow {
-    /* display: none !important; */
     height: 56px;
     width: 56px;
     bottom: -25px;

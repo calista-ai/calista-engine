@@ -6,19 +6,6 @@ import Step3 from '../assets/img/step3.svg'
 
 class HowItWorksDisplay extends Component {
 
-//   constructor(props) {
-//     super(props)
-//     this.state = {
-//       userInput: '',
-//       statusCode: 1,
-//       response: {
-//         score: null,
-//         url: '',
-//         imageURI: null
-//       }
-//     }
-
-
   render() {
 
     return (

@@ -1,7 +1,5 @@
 .contribution-section {
-    /* background-color: #e6e3ee; */
     background-color: #fefcff;
-
     width: 100%;
     min-height: 80vh;
 }
@@ -21,15 +19,12 @@
 .contribution-section .contribution-section-image {
     box-sizing: border-box;
     flex: 1.2;
-    /* min-width: 600px; */
     width: 100%;
 }
 
 .contribution-section .contribution-section-image img {
     width: 100%;
     height: auto;
-    /* min-height: 300px; */
-    /* min-width: 600px; */
 }
 
 .contribution-section .contribution-container-inner {

@@ -17,7 +17,6 @@
 
   padding-top: 2em;
 
-  /* border-radius: 5px; */
 }
 
 .search-section-header .logo {
@@ -26,9 +25,6 @@
   font-size: 2em;
   line-height: 1.5;
   font-weight: 700;
-  /* padding-top: 2em; 
-  padding-top: 10%;   */
-  /* padding-left: ; */
 }
 
 .search-section-header .search {
@@ -36,10 +32,8 @@
   max-width: 680px;
   margin-left: auto;
   margin-right: auto;
-  /* width: 90%; */
+
   margin-top: 1em;
-  /* display: block;
-  height: 100%; */
   padding: 0 3%;
 }
 
@@ -110,7 +104,6 @@
 } 
 
 .search-section-header .search form .btn:hover {
-  /* background-color: #66ad57; */
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
   background-size: 28px;
   outline: none;
@@ -122,9 +115,6 @@
 }
 
 .results {
-  /* padding-left: 2%;
-  padding-right: 2%; */
-  /* padding: 10px; */
   padding-top: 20px;
 }
 

@@ -1,14 +1,10 @@
-
 .how-it-works-section {
     background-color: #e6e3ee;
 
     width: 100%;
     min-height: 60vh;
     height: auto;
-    /* max-width: 1200px; */
-    /* height: 100%; */
-    /* text-align: center; */
-    /* margin-bottom: 0; */
+
 }
 
 .how-it-works-section .content-title {
@@ -28,14 +24,12 @@
 .how-it-works-section .content-items {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
-    /* padding-top: 20px; */
+
     min-height: 340px;
     margin: 20px auto 0;
     padding: 0 40px;
-    /* max-width: 1140px; */
 }
 
 .how-it-works-section .content-item {
@@ -83,13 +77,10 @@
 
 .background-curve {
     bottom: -10px;
-    /* top: 100px; */
-    /* height: 10vh; */
     position: relative;
     width: 100%;
     color: #E37151;
     z-index: 0;
-    /* margin-bottom: -40px; */
 } 
 
 
