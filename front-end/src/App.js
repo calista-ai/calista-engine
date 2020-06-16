@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
 import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom'
-// import SearchDisplay from './components/SearchDisplay.js'
-import './styles/App.css'
 
 import LoadingDisplay from './components/LoadingDisplay.js'
-import ResultDisplay from './components/ResultDisplay.js'
-
 import IntroPageDisplay from './components/IntroPageDisplay.js'
+import ResultPageDisplay from './components/ResultPageDisplay.js'
 
-
+import './styles/App.css'
 
 class App extends Component {
 
@@ -21,7 +18,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={IntroPageDisplay} />
             <Route path="/loading" component={LoadingDisplay} />
-            <Route path="/result" component={ResultDisplay} />
+            <Route path="/result" component={ResultPageDisplay} />
             <Route component={NotFoundRedirect} />
           </Switch>
         </div>
