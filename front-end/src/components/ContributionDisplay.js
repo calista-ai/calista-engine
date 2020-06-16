@@ -16,7 +16,7 @@ class ContributionDisplay extends Component {
           </div>
           <div className="contribution-container-inner">
             <div className="contribution-container-title">
-              <p>Help us Improve! <img src={Rocket} /></p>
+              <p>Help us Improve! <img src={Rocket} alt="" /></p>
             </div>
             <div className="contribution-container-text">
               <p>Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. </p>

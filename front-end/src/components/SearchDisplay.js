@@ -95,7 +95,7 @@ class SearchDisplay extends Component {
           </div>
           <div>
             <a className="arrow" href="#how-it-works-section">
-              <img src={Arrow} loading="lazy" />
+              <img src={Arrow} loading="lazy" alt="" />
             </a>
           </div>
         </div>
