@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import ReactScoreIndicator from 'react-score-indicator'
 
-import '../styles/ResultSection.css'
+import '../styles/ResultDisplay.css'
 
 
-class ResultSection extends Component {
+class ResultDisplay extends Component {
 
     render() {
 
@@ -65,4 +65,4 @@ class ResultSection extends Component {
     }
 }
 
-export default ResultSection
+export default ResultDisplay

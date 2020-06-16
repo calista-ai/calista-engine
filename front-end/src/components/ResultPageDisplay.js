@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 
-import ResultSection from './ResultSection.js'
+import ResultDisplay from './ResultDisplay.js'
 import ContributionDisplay from "./ContributionDisplay.js"
 import Footer from "./Footer.js"
 import LoadingDisplay from './LoadingDisplay.js'
@@ -121,7 +121,7 @@ class ResultPageDisplay extends Component {
               </form>
             </div>
           </div>
-          <ResultSection 
+          <ResultDisplay 
             statusCode={this.state.statusCode} 
             result={this.state.result}
           />
