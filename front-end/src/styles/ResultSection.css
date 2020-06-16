@@ -114,3 +114,13 @@
     height: auto;
     border-radius: 15px;
 }
+
+.result-section .error-section {
+    /* box-sizing: border-box; */
+    padding: 2%;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 15px;
+    max-width: 1600px;
+}
