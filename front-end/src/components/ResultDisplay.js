@@ -3,6 +3,8 @@ import ReactScoreIndicator from 'react-score-indicator'
 
 import '../styles/ResultDisplay.css'
 
+import NotFoundImg from '../assets/img/not-found.png'
+
 
 class ResultDisplay extends Component {
 
@@ -15,19 +17,42 @@ class ResultDisplay extends Component {
         
         if (statusCode === 4) {
             return (
-                <div className="result-section">
+                <div className="result-error-section">
                     <div className="error-section">
-                        No results found for {webpage}. Please make sure that the URL is valid.
-                    </div>
+                        <div className="error-illustration">
+                            <img src={NotFoundImg} alt="" />
+                        </div>
+                        <div className="content-text">
+                            <div className="title">
+                                <p>No results found for
+                                <br />
+                                <span className="webpage">{webpage}</span>
+                                </p>
+                            </div>
+                            <div className="description">
+                                <p>Please make sure that the URL is valid.</p>
+                            </div>
+                        </div>
+                    </div>                
                 </div>
             )
         }
         else if (statusCode === 5) {
             return (
-                <div className="result-section">
+                <div className="result-error-section">
                     <div className="error-section">
-                        No results found for {webpage}. An internal error occurred. If this error persists, please contact us.
-                    </div>
+                        <div className="error-illustration">
+                            <img src={NotFoundImg} alt="" />
+                        </div>
+                        <div className="content-text">
+                            <div className="title">
+                                <p>No results found for {webpage}.</p>
+                            </div>
+                            <div className="description">
+                                <p>An internal error occurred. If this error persists, please contact us.</p>
+                            </div>
+                        </div>
+                    </div>                
                 </div>
             )
         }
