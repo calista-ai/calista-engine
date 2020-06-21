@@ -1,6 +1,16 @@
 # Calista Engine
 
-A Deep Learning powered Engine to measure your Website's Aesthetics
+A Deep Learning powered engine to measure your Website's Aesthetics
+
+![](/media/engine.png)
+
+## How to use
+
+* Step 1: Insert the URL of the webpage that you want to evaluate its aesthetics
+
+* Step 2: Wait a few seconds for the assessment process to complete
+
+* Step 3: The aesthetics score is ready!
 
 ## Prerequisites
 
