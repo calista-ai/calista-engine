@@ -23,7 +23,9 @@ class InfoDisplay extends Component {
               </div>
               <div className="info-item-description">
                 <p>
-                  Here goes text. Here goes text. Here goes text. Here goes text. Here goes text.
+                  A streamlined web app that helps you measure your website's appealingness to users in just a few seconds. 
+                  <br /><br />
+                  100% open source and free of charge.
                 </p>
               </div>
             </div>
@@ -41,7 +43,9 @@ class InfoDisplay extends Component {
               </div>
               <div className="info-item-description">
                 <p>
-                  Here goes text. Here goes text. Here goes text. Here goes text. Here goes text.
+                  The assessment process is based on a deep learning model that presents high correlation to human perception concerning website aesthetics. 
+                  <br /><br />
+                  Utilize Calista's knowledge gained by real users in order to produce attractive designs and enhance user experience.
                 </p>
               </div>
             </div>  
@@ -53,7 +57,9 @@ class InfoDisplay extends Component {
               </div>
               <div className="info-item-description">
                 <p>
-                  Here goes text. Here goes text. Here goes text. Here goes text. Here goes text.
+                  Calista's efficiency is constantly improving by collecting new data.
+                  <br /><br />
+                  Our goal is to provide a tool that can serve as a reliable guide in the hands of designers and developers during the design process. 
                 </p>
               </div>
             </div>
