@@ -1,67 +1,65 @@
+.loading-section {
+  background-color: #7f83db;
 
-
-.wrapper {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); */
-  /* padding: 0 7px; */
+  min-height: 100vh;
   width: 100%;
-  /* max-width: 1200px; */
-  /* margin: auto;
-  top: 39.3%;
-  z-index: 12; */
+
+  display: flex;
+  flex-direction: column;
+
   text-align: center;
 }
 
-.wrapper .logo {
-
-  margin: 0 auto;
-  padding-top: 20vh;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  display: block;
-
+.loading-section .logo {
+  color: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+  font-size: 5em;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-top: 2em;
+  box-sizing: border-box;
 }
 
-.wrapper .logo img {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.wrapper .spinner {
-  display: block;
-  /* float: none; */
+.loading-section .spinner {
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 3%;
-  padding-right: 3%; */
-  /* width: 80%; */
   max-width: 680px;
-  /* padding: 1.9em 0.8em 0; */
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
-.wrapper .loading-message {
-  padding-top: 20px;
-  position: relative;
-  padding-top: 1em;
-  margin: 0 auto;
+.loading-section .loading-message {
+  padding-top: 2em;
   line-height: 1.4;
   font-size: 1.2em;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.wrapper .loading-message span {
-  color: #9a9a9a;
+.loading-section .loading-message span {
+  color: rgba(255,255,255,.70);
 }
 
-.wrapper .loading-message .webpage {
-  color: #000000;
+.loading-section .loading-message .webpage {
+  color: rgba(255,255,255,.70);
   font-size: .9em;
   font-weight: 400;
   font-style: italic;
+  word-wrap: break-word;
+  white-space: initial;
 }
+
+@media screen and (max-height: 570px) {
+  .loading-section .logo {
+      padding-top: 1em;
+  }
+} 
+
+@media screen and (max-height: 480px) {
+  .loading-section .logo {
+      padding-top: .2em;
+  }
+} 

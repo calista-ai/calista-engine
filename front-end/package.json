@@ -11,8 +11,7 @@
     "react-router-dom": "^5.1.2",
     "react-score-indicator": "^2.1.1",
     "react-scripts": "3.2.0",
-    "react-spinners": "^0.6.1",
-    "react-tabs": "^3.0.0"
+    "react-spinners": "^0.6.1"
   },
   "scripts": {
     "start": "react-scripts start",

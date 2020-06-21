@@ -1,0 +1,167 @@
+.result-page {
+  width: 100%;
+  background-color: #e6e3ee;
+}
+
+.search-section-header {
+  background-color: #7f83db;
+
+  height: 150px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  box-sizing: border-box;
+
+  padding-top: 2em;
+
+}
+
+.search-section-header .logo {
+  color: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.search-section-header .search {
+  width: 100%;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 1em;
+  padding: 0 3%;
+}
+
+.search-section-header .search form {
+  box-sizing: content-box;
+  background-color: #fff;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-right: 3em;
+  border-radius: 3px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+
+  display: block;
+  position: relative;
+}
+
+.search-section-header .search form input {
+  font-size: 1em;
+  font-weight: 350;
+  width: 100%;
+  background: #fff;
+  border: 0;
+  padding: 0;
+  height: 2.5em;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  outline: none;
+}
+
+@media screen and (max-width: 400px) {
+  .search-section-header .search form {
+      font-size: 1em;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .search-section-header .logo {
+      padding-top: 1em;
+  }
+}
+
+@media screen and (max-height: 380px) {
+  .search-section-header .logo {
+      padding-top: .6em;
+  }
+}
+
+.search-section-header .search form .btn {
+  box-sizing: content-box;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
+  background-size: 28px;
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: rgba(0,0,0,0.33);
+  border: none;
+  cursor: pointer;
+  padding: 0 0.64em;
+  height: 44px;
+  min-width: 26px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  outline: none;
+} 
+
+.search-section-header .search form .btn:hover {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/icon--search.svg");
+  background-size: 28px;
+  outline: none;
+}
+
+.search-section-header .search form .btn:active {
+  background-color: transparent;
+  outline: none;
+}
+
+.results {
+  padding-top: 20px;
+}
+
+.results .tab-list {
+  padding-left: 2%;
+}
+
+.results .tab-title {
+  padding: 10px;
+  font-style: "sans-serif";
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.results .tab-panel {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5px;
+  /* background-color: #ffffff; */
+}
+
+.results .tab-panel .intro-text {
+  font-size: 1em;
+}
+
+.results .tab-panel .webpage-name {
+  font-weight: 400;
+}
+
+.results .tab-panel .score-indicator {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.results .tab-panel .screenshot {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.results .tab-panel .screenshot img {
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

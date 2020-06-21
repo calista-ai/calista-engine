@@ -1,0 +1,159 @@
+.info-section {
+    background-color: #E37151;
+
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    z-index: 1;
+
+}
+
+.info-section .info-title {
+    text-align: center;
+    padding: 20px 2px;
+}
+
+.info-section .info-title p {
+    font-family: 'Comfortaa',sans-serif;
+    margin: 0;
+    font-size: 1.8em;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+
+.info-section .info-items {
+    box-sizing: border-box; 
+    margin-top: 50px;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-section .info-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.info-section .info-item-reverse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+.info-section .info-item-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+    flex: 1;
+    padding-left: 3rem;
+    width: 100%;
+}
+
+.info-section .info-item-reverse-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+    flex: 1;
+
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.info-section .info-item p {
+    margin: 0;
+}
+
+.info-section .info-item-reverse p {
+    margin: 0;
+}
+
+.info-section .info-item-title {
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 600;
+
+    padding-bottom: 1em;
+}
+
+.info-section .info-item-description {
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Dejavu Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+
+.info-section .info-item-image {
+    box-sizing: border-box;
+
+    flex: 1.2;
+    width: 100%;
+}
+
+.info-section .info-item-reverse-image {
+    box-sizing: border-box;
+
+    flex: 1.2;
+    width: 100%;
+}
+
+.info-items img {
+    box-sizing: border-box;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+@media screen and (max-width: 900px) { 
+
+    .info-section .info-item {
+        flex-direction: column;
+    }
+
+    .info-section .info-item-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .info-section .info-item-text {
+        padding: 0 1rem;
+    }
+
+    .info-section .info-item-reverse-text {
+        padding: 0 1rem;
+    }
+}

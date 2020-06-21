@@ -1,0 +1,89 @@
+.how-it-works-section {
+    background-color: #e6e3ee;
+
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+
+}
+
+.how-it-works-section .content-title {
+    text-align: center;
+    color: #353748;
+    padding: 20px;
+}
+
+.how-it-works-section .content-title p {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0;
+}
+  
+.how-it-works-section .content-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    min-height: 340px;
+    margin: 20px auto 0;
+    padding: 0 40px;
+}
+
+.how-it-works-section .content-item {
+    box-sizing: border-box;
+    width: 300px;
+    min-width: 280px;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 17.5px;
+    margin-left: 17.5px;
+    padding: 20px 25px;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.how-it-works-section .content-item-img {
+    
+    margin: 30px;
+    display: block;
+}
+
+.how-it-works-section .content-item-img img {
+    width: 110px;
+    height: 100px;
+}
+
+.how-it-works-section .content-item-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: inherit;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.how-it-works-section .content-item-description {
+    font-size: 17px;
+    line-height: 1.5;
+    color: inherit;
+}
+
+.background-curve {
+    bottom: -10px;
+    position: relative;
+    width: 100%;
+    color: #E37151;
+    z-index: 0;
+} 
+
+
+.content-items .background-curve path {
+    color: #E37151;
+}
