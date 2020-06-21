@@ -19,7 +19,11 @@ class ContributionDisplay extends Component {
               <p>Help us Improve! <img src={Rocket} alt="" /></p>
             </div>
             <div className="contribution-container-text">
-              <p>Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. Here goes text. </p>
+              <p>
+                In an attempt to further understand website aesthetics, we are currently expanding our dataset via crowdsourcing.
+                <br /><br />
+                Help Calista improve by taking part in our 5' survey.   
+              </p>
             </div>
             <div className="contribution-container-button">
               <a href="https://data.calista.app" target="_blank" rel="noopener noreferrer">
