@@ -3,7 +3,8 @@ FROM python:3.7
 
 RUN apt-get update && \
     apt-get -y install netcat && \
-    apt-get clean
+    apt-get clean && \
+    apt-get install -y python3-opencv
 
 # Create and set the working directory
 RUN mkdir -p /app/cnn
