@@ -9,31 +9,34 @@ const cors = require('cors')
 const puppeteer = require('puppeteer')
 
 const request = require('request-promise')
-const fs = require('fs')
 const imageDataURI = require('image-data-uri')
 
 const websiteRoutes = express.Router()
 
-
 const PORT = process.env.PORT || 4000
+
+const basePath = process.cwd();
+const cookieIgnorePath = `${basePath}/src/extensions/cookieconsent`
 
 const config = {
   launchOptions: {
-    headless: true,
+    headless: false,
     args: [
         // Required for Docker version of Puppeteer
         '--no-sandbox',
         '--disable-setuid-sandbox',
         // This will write shared memory files into /tmp instead of /dev/shm,
         // because Docker’s default for /dev/shm is 64MB
-        '--disable-dev-shm-usage'
+        '--disable-dev-shm-usage',
+        // load browser extensions
+        `--disable-extensions-except=${cookieIgnorePath}`,
+        `--load-extension=${cookieIgnorePath}`,
       ]
   },
   viewport: {
     width: 1366, 
     height: 694
   }
-
 }
 
 app.use(cors())
@@ -66,8 +69,12 @@ async function getWebpageImage(url, imagePath) {
 
         await page.goto(url, {"waitUntil": "networkidle0"})
 
-        await page.screenshot({ path: imagePath })
+        // hide scrollbar 
+        await page.evaluate(() => { 
+          document.querySelector('html').style.overflow = 'hidden'
+        }) 
 
+        await page.screenshot({ path: imagePath })
       }
 
       catch(err) {
